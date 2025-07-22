@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-28T19:02:23 IST" name="Suite" finished-at="2025-06-28T19:02:37 IST" duration-ms="14290">
+    <groups>
+    </groups>
+    <test started-at="2025-06-28T19:02:23 IST" name="Test" finished-at="2025-06-28T19:02:37 IST" duration-ms="14290">
+      <class name="LoginByDataProviders.saucedemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:23 IST" name="setup" finished-at="2025-06-28T19:02:25 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:25 IST" name="login" data-provider="loginCredentials" finished-at="2025-06-28T19:02:27 IST" duration-ms="2329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:27 IST" name="tearDown" finished-at="2025-06-28T19:02:27 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:27 IST" name="setup" finished-at="2025-06-28T19:02:29 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:29 IST" name="login" data-provider="loginCredentials" finished-at="2025-06-28T19:02:29 IST" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:29 IST" name="tearDown" finished-at="2025-06-28T19:02:29 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:29 IST" name="setup" finished-at="2025-06-28T19:02:30 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:30 IST" name="login" data-provider="loginCredentials" finished-at="2025-06-28T19:02:37 IST" duration-ms="6390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginByDataProviders.saucedemo@543295b0]" started-at="2025-06-28T19:02:37 IST" name="tearDown" finished-at="2025-06-28T19:02:37 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginByDataProviders.saucedemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
